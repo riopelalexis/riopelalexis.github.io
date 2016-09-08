@@ -30,7 +30,7 @@ nav
 {color: black;}
 
 nav h1
-{font-family: avenir, sans-serif;
+{font-family: avenir, verdana, sans-serif;
 font-size: 3em;
 font-style: oblique;
 font-weight: 900;
@@ -38,10 +38,9 @@ margin-top: 0%;
 margin-bottom: 0%;}
 
 nav h2
-{list-style-type: none;
-margin:0;
+{margin:0;
 padding: 10px 0 0 0;
-font-family: optima, serif;
+font-family: optima, 'Trebuchet MS', serif;
 font-size: 1.5em;
 font-style: italic;
 font-weight: normal}
@@ -50,7 +49,7 @@ nav h3
 {list-style-type: none;
 margin:0;
 padding: 0 0 0 10px;
-font-family: optima, serif;
+font-family: optima, 'Trebuchet MS', serif;
 font-size: 0.9em;
 font-weight: normal}
 
@@ -64,6 +63,28 @@ nav a:hover
 nav a:visited
 {color: inherit;}
 
+.info
+{font-family: optima, 'Trebuchet MS', sans-serif;
+font-size: 0.8em;
+padding: 10% 0 0 50%;
+text-align: right;
+font-weight: 100;}
+
+.bulle
+{width: 60%;
+margin: 0 11% 0 0;
+color: black;
+font-size: 0.9em;
+text-align: justify;
+font-family: avenir, verdana, sans-serif;
+line-height: 1.4;}
+
+.bulle h2
+{font-family: avenir, 'Trebuchet MS', sans-serif;
+font-size: 1em;
+text-align: left;
+font-weight: 600;}
+
 section
 {width: 80%;
 background-color: white;
@@ -73,11 +94,11 @@ border: 1px #C7C7C7 solid;
 color: black;
 font-size: 1em;
 text-align: justify;
-font-family: 'Adobe Caslon Pro', serif;
+font-family: 'Adobe Caslon Pro', georgia, serif;
 line-height: 1.4;}
 
 section h1
-{font-family: avenir, sans-serif;
+{font-family: avenir, 'Trebuchet MS', sans-serif;
 font-size: 3em;
 font-weight: 900;
 text-align: left;
@@ -85,25 +106,13 @@ padding-top: 0;
 line-height: 1;}
 
 section h2
-{font-family: avenir, sans-serif;
+{font-family: avenir, 'Trebuchet MS', sans-serif;
 font-size: 1em;
 text-align: left;
 font-weight: 600;}
 
-.info
-{font-family: optima, sans-serif;
-font-size: 0.8em;
-padding: 10% 0 0 50%;
-text-align: right;
-font-weight: 100;}
-
 figure
 {margin: 3% 0 3% 0;
-padding: 0;}
-
-.grfig
-{width: 100%;
-margin: 0 0 5% 0;
 padding: 0;}
 
 img
@@ -112,40 +121,21 @@ margin: 0;
 padding: 0;}
 
 figcaption
-{font-family: avenir, sans-serif;
+{font-family: avenir, 'Trebuchet MS', sans-serif;
 font-size: 0.9em;
 margin-top: 1%;}
 
 .credit
-{font-family: avenir, sans-serif;
+{font-family: avenir, 'Trebuchet MS', sans-serif;
 font-size: 0.5em;
-text-align: right; 
+text-align: right;
 color: #888888;}
 
-aside
-{display: flex;
-height: 100%;
-flex-direction: column;
-justify-content: space-between;
-margin: 5% 0 5% 0;}
-
-.bulle
-{width: 60%;
-margin: 0 11% 0 0;
-color: black;
-font-size: 0.9em;
-text-align: justify;
-font-family: avenir, sans-serif;
-line-height: 1.4;}
-
-.bulle h2
-{font-family: avenir, sans-serif;
-font-size: 1em;
-text-align: left;
-font-weight: 600;}
+.grfig
+{width: 100%;
+margin: 0 0 5% 0;
+padding: 0;}
 
 .exposant
 {vertical-align: super;
 font-size: 0.7em;}
-
-
