@@ -11,23 +11,24 @@ overflow-x: hidden;}
 {display: flex;
 flex-direction: row;
 justify-content: space-between;
-width: 80%;
-margin: 3% 10% 3% 10%;}
+width: 86%;
+margin: 1% 7% 1% 7%;}
 
 #gauche
 {display: flex;
 flex-direction: column;
 justify-content: space-between;
-margin-right: 2.5%;}
+margin: 2.5%;}
 
 #droite
 {display: flex;
 flex-direction: column;
 justify-content: space-between;
-margin-left: 2.5%;}
+margin: 2.5%;}
 
 nav
-{color: black;}
+{color: black;
+margin-bottom: 5%;}
 
 nav h1
 {font-family: avenir, verdana, sans-serif;
@@ -133,7 +134,7 @@ color: #888888;}
 
 .grfig
 {width: 100%;
-margin: 0 0 5% 0;
+margin: 2% 0 2% 0;
 padding: 0;}
 
 .exposant
