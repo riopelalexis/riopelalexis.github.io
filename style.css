@@ -31,7 +31,7 @@ nav
 margin-bottom: 5%;}
 
 nav h1
-{font-family: 'palatino linotype', 'Palatino-Roman', serif;
+{font-family: 'palatino linotype', palatino, serif;
 font-size: 2.5em;
 font-style: oblique;
 font-weight: 900;
@@ -41,7 +41,7 @@ padding: 3px 0 3px 0;}
 nav h2
 {margin:0;
 padding: 10px 0 3px 0;
-font-family: 'palatino linotype', 'Palatino-Roman', serif;
+font-family: 'palatino linotype', palatino, serif;
 font-weight: 300;
 font-size: 1.5em;
 font-style: italic;}
@@ -96,7 +96,7 @@ border: 0px #C7C7C7 solid;
 color: black;
 font-size: 1em;
 text-align: justify;
-font-family: 'palatino linotype', 'Palatino-Roman', serif;
+font-family: 'palatino linotype', palatino, serif;
 line-height: 1.4;}
 
 section h1
